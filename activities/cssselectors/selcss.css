@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    color: rgb(183, 13, 129);
+}
+#uno {
+    color: fuchsia;
+}
+.blueviolet {
+    color: blueviolet;
+}
+.bigger {
+    font-size: 24pt;
+}
+main .bigger {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.browntitle {
+    color: brown;font-size: 200%; font-family: 'Courier New', Courier, monospace;
+}
+.darkbrown {
+    color: darkgoldenrod;
+}
+.bolder {
+    font-weight: 900;
+}
