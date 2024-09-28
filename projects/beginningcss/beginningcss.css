@@ -1,0 +1,27 @@
+.darkblue {
+    color: #001f3f;
+}
+.blue {
+    color: #3a6d8c;
+}
+.lightblue {
+    color: #6A9AB0;
+}
+#interest {
+    color: #001f3f; font-family: 'Brush Script MT', cursive;
+}
+.teal {
+    background-color: #EAD8B1;
+}
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fontsize {
+    font-size: large;
+}
+#hero {
+    font-family: 'Brush Script MT', cursive; color: #001f3f;
+}
+.bold {
+    font-weight: 900;
+}
