@@ -1,0 +1,22 @@
+header {
+    background: url(yellowface.png) no-repeat right;
+    /*background-image: url(yellowface.png);
+    background-repeat: no-repeat;
+    background-position: right;*/
+}
+body {
+    font-family: Arial, Helvetica, sans-serif; color: darkblue; 
+    background: url(whitebackground.jpg) white;
+    /*background-image: url(whitebackground.jpg);
+    background-color: white;*/
+}
+nav a {
+    color: green;
+}
+.current {
+    color: black;
+}
+.list {
+    /*list-style-type: square;*/
+    list-style-image: url(greendot.png);
+}
