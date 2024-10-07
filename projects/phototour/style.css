@@ -1,0 +1,19 @@
+body {
+    background: url(oahuisland.jpg) black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: x-large;
+    
+}
+nav a {
+    color: greenyellow;
+}
+.current {
+    color: darkgreen;
+}
+.list {
+    list-style-image: url(mountain.png);
+}
+#flag {
+    background: url(kanakamaoli.png) no-repeat top right;
+}
