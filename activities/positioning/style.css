@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(pictures/blackbackground.avif);
+}
+nav {
+    background-color: white;
+    color: black;
+    width: max-content;
+}
+nav ul {
+    list-style-type: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: black;
+    background-color: white;
+    display: block;
+    padding: 10px 30px;
+    border-bottom: thin solid black;
+    float: left;
+}
+nav a:hover {
+color: white;
+background-color: black;
+}
+header {
+    background-color: darkblue;
+    width: max-content;
+}
+#stephencurry img {
+    width: 250px;
+}
+#stephencurry {
+    width: 250px;
+    border: thin solid blue;
+    float: left
+}
+.clear {
+    clear: both;
+}
