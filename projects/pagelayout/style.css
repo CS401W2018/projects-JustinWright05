@@ -1,0 +1,64 @@
+body {
+    font-size: x-large;
+}
+header {
+    font-family: Manga Temple, Arial, Helvetica, sans-serif;
+    margin-left: 34px;
+}
+nav {
+    background-color: black;
+    color: white;
+    width: max-content;
+    font-family:SAKURATA, Arial, Helvetica, sans-serif;
+}
+nav ul {
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    color: white;
+    background-color: black;
+    display: block;
+    padding: 10px 30px;
+    border-bottom: thin solid white;
+    float: left;
+}
+nav a:hover {
+    color: black;
+    background-color: white;
+}
+@font-face {
+
+    font-family: "Manga Temple";
+
+    src: url(fonts/mangat.ttf/);
+    src: url(fonts/mangatb.ttf);
+    src: url(fonts/mangati.ttf);
+
+}
+@font-face {
+
+    font-family: "SAKURATA";
+
+    src: url(fonts/SAKURATA.otf);
+
+}
+.clear {
+    clear: both;
+}
+#bonzaitree {
+    width: 199px;
+    border: thin solid black;
+    float: left;
+}
+footer {
+    margin-left: 34px;
+    font-family: 'Times New Roman', Times, serif;
+}
