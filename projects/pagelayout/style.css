@@ -98,7 +98,7 @@ main p {
 }
 #backdrop {
     background-color: beige;
-    width: 630px;
+    max-width: 630px;
     padding-top: 1px;
     padding-bottom: 10px;
     border: thin solid tan;
