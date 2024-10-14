@@ -3,13 +3,27 @@ body {
 }
 header {
     font-family: Manga Temple, Arial, Helvetica, sans-serif;
-    margin-left: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: max-content;
+    height: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+    border-radius: 20px;
+    border: thick solid black;
 }
 nav {
     background-color: black;
     color: white;
     width: max-content;
     font-family:SAKURATA, Arial, Helvetica, sans-serif;
+    margin-right: auto;
+    margin-left: auto;
 }
 nav ul {
     list-style-type: none;
@@ -50,6 +64,13 @@ nav a:hover {
     src: url(fonts/SAKURATA.otf);
 
 }
+@font-face {
+
+    font-family: "Niagato";
+
+    src: url(fonts/Niagato.ttf);
+
+}
 .clear {
     clear: both;
 }
@@ -57,8 +78,48 @@ nav a:hover {
     width: 199px;
     border: thin solid black;
     float: left;
+    margin-left: 34px;
+    margin-top: 0;
 }
 footer {
     margin-left: 34px;
     font-family: 'Times New Roman', Times, serif;
+}
+#captions {
+    text-align: center;
+}
+.marginleft {
+    margin-left: 34px;
+}
+main p {
+    line-height: 1.5;
+    font-family: Niagato, 'Times New Roman', Times, serif
+}
+#backdrop {
+    background-color: beige;
+    width: 630px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    border: thin solid tan;
+}
+#centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+} 
+main h2 {
+    margin-left: 34px;
+    background-color: azure;
+    width: max-content;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+    font-weight: lighter;
+    font-style: italic;
+    text-transform: uppercase;
+    text-shadow: 2px 2px green;
+}
+footer {
+    background-image: url(pictures/bonsaicopyright.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
