@@ -1,0 +1,54 @@
+.flexlink {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+header {
+    background-color: lightblue;
+    margin-bottom: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+nav {
+    background-color: gray;
+    padding: 20px;
+    margin-top: 0px;
+}
+nav a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: black;
+    background-color: white;
+}
+header {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column 2;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 770px;
+}
+.item {
+    background-color: lightblue;
+    border: thick solid black;
+    text-align: center;
+    padding: 10px 5px;
+    width: max-content;
+}
+.sidebar {
+    width: 250px;
+    float: left;
+}
+.container2 {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
