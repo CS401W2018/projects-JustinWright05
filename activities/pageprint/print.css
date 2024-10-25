@@ -51,9 +51,6 @@ header {
     text-align: center;
 }
 nav {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
     display: none;
 }
 nav a {
