@@ -77,7 +77,7 @@ header {
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: yellow;
     text-shadow: 3px 3px 1px blue;
-    padding-left: 600px;
+    text-align: center;
 }
 .container {
     display: flex;
@@ -109,6 +109,7 @@ header {
     .artsy {
         padding-left: 50px;
         order: 1;
+        text-align: left;
     }
     main {
         display: flex;
