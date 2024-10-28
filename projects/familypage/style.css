@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: larger;
+    background-image: url(pictures/star.png);
+    background-color: black;
+}
+nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: thick solid yellow;
+}
+nav a:hover {
+    color: white;
+    background-color: black;
+    border: thick solid blue;
+}
+header {
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: yellow;
+    text-align: center;
+    text-shadow: 3px 3px 1px blue;
+}
+#gumball {
+    width: 300px;
+}
+.image {
+    color: black;
+    background-color: white;
+    width: 300px;
+    border: thin solid white;
+    text-align: center;
+    box-shadow: 5px 5px 1px blue;
+}
+.list {
+    color: white;
+}
+.sidebar {
+    width: max-content;
+    float: left;
+    padding-right: 20px;
+}
+.article {
+    width: 249px;
+    float: left;
+    background-color: white;
+    color: black;
+    box-shadow: 5px 5px 1px yellow;
+}
+.black {
+    background-color: black;
+}
+.clear {
+    clear: both;
+}
+.border {
+    border: thin solid white;
+}
+.center {
+    text-align: center;
+    text-decoration: underline;
+}
+.artsy {
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: yellow;
+    text-shadow: 3px 3px 1px blue;
+    padding-left: 600px;
+}
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.italic {
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        gap: 30px;
+        width: max-content;
+        padding-left: 50px;
+    }
+    .container {
+        display: flex;
+        flex-flow: column;
+        padding-left: 60px;
+    }
+    .sidebar {
+        float: none;
+        
+    }
+    .artsy {
+        padding-left: 50px;
+        order: 1;
+    }
+    main {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+}
