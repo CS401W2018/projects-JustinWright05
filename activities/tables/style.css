@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.farm-log {
+    margin: 5px auto;
+    border: thin solid black;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    background-color: gray;
+}
+.farm-log td, .farm-log th {
+    border: thin solid black;
+    padding: 5px;
+}
+.farm-log thead, .farm-log tfoot {
+    background-color: lightblue;
+}
+.farm-log tbody tr:nth-child(odd) {
+    background-color: blue;
+}
