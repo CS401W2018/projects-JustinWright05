@@ -1,0 +1,162 @@
+header {
+    font-family: Chromakopia, Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: green;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: darkgreen;
+    margin: 0;
+}
+nav {
+    font-family: Chromakopia, Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 0;
+    
+}
+nav a {
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: green;
+    color: white;
+}
+nav a:hover {
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: green;
+    color: black;
+}
+aside ul li {
+    line-height: 1.5;
+}
+.sidebar {
+    display: flex;
+    flex-flow: column;
+    justify-content: right;
+    float: right;
+    background-color: green;
+    padding: 20px;
+    width: 378px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+aside h3 {
+    font-size: x-large;
+    text-transform: capitalize;
+    font-family: Chromakopia;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    text-align: center;
+}
+aside img {
+    box-shadow: 5px 5px 2px;
+}
+@font-face {
+
+    font-family: "Chromakopia";
+
+    src: url(fonts/fonnts.com-Poleno_Black.otf);
+    src: url(fonts/fonnts.com-Poleno_Bold.otf);
+    src: url(fonts/fonnts.com-Poleno_ExtraBold.otf);
+    src: url(fonts/fonnts.com-Poleno_Medium.otf);
+    src: url(fonts/fonnts.com-Poleno_SemiBold.otf);
+    src: url(fonts/fonnts.com-Poleno_Super.otf);
+}
+
+.tier-list thead, .tier-list tfoot, .tier-list tbody tr th {
+    background-color: black;
+    color: white;
+}
+
+.tier-list {
+    border: thin solid white;
+    margin: 5px auto;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    background-color: green;
+    box-shadow: 15px 15px 1px;
+}
+
+.tier-list td, .tier-list th {
+    border: thin solid white;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.tier-list tbody tr:nth-child(odd) {
+    background-color: darkgreen;
+}
+#table-title {
+    font-family: Chromakopia;
+    color: white;
+    font-family: Chromakopia;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: green;
+    font-size: xx-large;
+    margin-top: 0;
+    padding-top: 30px;
+    text-shadow: 5px 5px 1px black;
+}
+.table {
+text-align: center;
+}
+.clear {
+    clear: both;
+}
+footer {
+    margin-left: 20px;
+    margin-top: 0;
+}
+.extension {
+    padding: 20px;
+    width: 378px;
+    background-color: green;
+    float: right;
+    margin-top: 0;
+    padding-top: 60px;
+}
+main {
+    margin-bottom: 0;
+}
+footer p {
+    margin-top: 0;
+    padding-top: 30px;
+}
+#listen {
+    padding-top: 50px;
+    
+}
+#listen a {
+    font-family: Chromakopia;
+    text-decoration: none;
+    color: white;
+    font-family: Chromakopia;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: green;
+    font-size: xx-large;
+    margin-top: 0;
+    padding-top: 30px;
+    text-shadow: 5px 5px 1px black;
+}
+#listen a:hover {
+    font-family: Chromakopia;
+    color: black;
+    font-family: Chromakopia;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: green;
+    font-size: xx-large;
+    margin-top: 0;
+    padding-top: 30px;
+    text-shadow: 5px 5px 1px white;
+}
+@media screen and (max-width: 1055px) {
+    .extension {
+        display: none;
+    }
+}
