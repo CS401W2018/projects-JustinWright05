@@ -157,6 +157,9 @@ footer p {
     padding-top: 30px;
     text-shadow: 5px 5px 1px white;
 }
+.list {
+    list-style-image: url(pictures/chromakopia-vinyl\ copy.png);
+}
 @media screen and (max-width: 1055px) {
     .extension {
         display: none;
