@@ -12,25 +12,69 @@
     </header>
     <main>
         <form action="processing.html" method="post">
-            First Name: <input type="text" name="first" value="Joe" required="required"><br>
-            Last Name: <input type="text" name="last" placeholder="Last Name"><br>
-            Password: <input type="password" name="pass"><br>
-            Email: <input type="email" name="mail"><br>
-            Phone Number: <input type="number" name="phone"><br>
-            Time: <input type="time" name="time"><br>
-            Click if cool: <input type="radio" name="dot" value="Cool"> You are Cool<br>
-            Click if cool: <input type="radio" name="dot" value="Cool"> You are Cool<br>
-            Click if cool: <input type="radio" name="dot" value="Cool"> You are Cool<br>
-            <input type="checkbox" name="rember" checked> Remember Me<br>
-            <select name="state" id="state">
-                <option value="blank"></option>
-                <option value="Hawaii">Hawaii</option>
-                <option value="California">California</option>
-                <option value="Washington">Washington</option>
-                <option value="Utah">Utah</option>
-            </select><br>
-            <textarea name="comment" id="comment">Aloha</textarea>
-            <input type="submit">
+            <fieldset>
+                <legend>Sign Up</legend>
+                <div class="form-row">
+                    <label for="fname">First Name:</label>
+                    <input id="fname" name="first" value="Joe" required="required">
+                </div>
+                <div class="form-row">
+                    <label for="lname">Last Name:</label>
+                    <input id="lname" type="text" name="last" placeholder="Last Name">
+                </div>
+                <div class="form-row">
+                    <label for="pword">Password:</label>
+                    <input id="pword" type="password" name="pass">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label> 
+                    <input id="email" type="email" name="mail">
+                </div>
+                <div class="form-row">
+                    <label for="pnumber">Phone Number:</label> 
+                    <input id="pnumber" type="number" name="phone">
+                </div>
+                <div class="form-row">
+                    <label for="time">Time:</label>
+                    <input id="time" type="time" name="time">
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label for="cool">Click if cool:</label> 
+                    <input class="cool" type="radio" name="dot" value="Cool"> 
+                    <label for="cool">You are Cool</label>
+                    <label for="cool">Click if cool:</label> 
+                    <input class="cool" type="radio" name="dot" value="Cool"> 
+                    <label for="cool">You are Cool</label>
+                    <label for="cool">Click if cool:</label> 
+                    <input class="cool" type="radio" name="dot" value="Cool"> 
+                    <label for="cool">You are Cool</label>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label>
+                        <input type="checkbox" name="rember" checked> Remember Me
+                    </label>
+                </div>
+                <div class="form-row">
+                    <label for="state">States</label>
+                    <select name="state" id="state">
+                        <option value="blank"></option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="California">California</option>
+                        <option value="Washington">Washington</option>
+                        <option value="Utah">Utah</option>
+                </select>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments</label>
+                    <textarea name="comment" id="comments">Aloha</textarea>
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit">
+                </div>
+            </fieldset>
         </form>
         <h2>The form tag has an "action" attribute. What does it do?
         </h2>
