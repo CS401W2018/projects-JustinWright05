@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Gosling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Donate to me, Ryan Gosling</h1>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Donate</legend>
+            <div class="form-row">
+                <label for="fname">First Name:</label>
+                <input id="fname" name="first" required="required">
+            </div>
+            <div class="form-row">
+                <label for="lname">Last Name:</label>
+                <input id="lname" type="text" name="last">
+            </div>
+            <div class="form-row">
+                <label for="pword">Password:</label>
+                <input id="pword" type="password" name="pass">
+            </div>
+            <div class="form-row">
+                <label for="card">Credit Card Information:</label>
+                <input id="card" type="number" name="credit-card">
+            </div>
+            <div class="form-row">
+                <label for="cdate">Card Expiration Date:</label>
+                <input type="date" name="expiration-date" id="cdate">
+            </div>
+            <div class="form-row">
+                <label for="scode">Security Code (Back Three Digits):</label>
+                <input type="number" name="security-code" id="scode">
+            </div>
+            <div class="check-row">
+                <div class="spacer"></div>
+                <label for="ryan">Click if you love Ryan Gosling:</label>
+                <input type="checkbox" name="ryan" id="ryan"> 
+            </div>
+            <div class="check-row">
+                <div class="spacer"></div>
+                <label>How much money would you like to give me:</label>
+                <label for="hundred-thousand">$100,000</label>
+                <input id="hundred-thousand" type="radio" name="dot" value="Money">
+                <label for="one-million">$1,000,000</label>
+                <input id="one-million" type="radio" name="dot" value="Money">
+                <label for="one-billion">$1,000,000,000</label>
+                <input id="one-billion" type="radio" name="dot" value="Money">
+            </div>
+            <div class="form-row">
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="blank"></option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Washington">Washington</option>
+                    <option value="California">California</option>
+                    <option value="Utah">Utah</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="gosling">Why do you love Ryan Gosling?</label>
+                <textarea name="textbox" id="gosling"></textarea>
+            </div>
+            <div class="form-row">
+                <div class="spacer"></div>
+                <input type="submit">
+            </div>
+        </fieldset>
+    </main>
+    <footer>
+        <p>&copy; 2024 Justin Wright</p>
+    </footer>
+</body>
+</html>
