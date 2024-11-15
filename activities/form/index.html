@@ -11,6 +11,7 @@
         <h1>Web Design</h1>
     </header>
     <main>
+        <div id="message"></div>
         <form action="processing.html" method="post" id="myForm">
             <fieldset>
                 <legend>Sign Up</legend>
@@ -76,6 +77,11 @@
                 </div>
             </fieldset>
         </form>
+        <h2>What is AJAX?</h2>
+        <p>used to create asynchrenous web pages.</p>
+        <h2>Why do you put your JS Code in a separate file?
+        </h2>
+        <p>it is not valid html</p>
         <h2>What is JavaScript? How did it get its name?
         </h2>
         <p>front end of browser more interactive. </p>
@@ -101,22 +107,6 @@
     <footer>
         <p>&copy; 2024 Justin Wright</p>
     </footer>
-    <script>
-        document.getElementById('myForm').addEventListener('submit',function(event) {
-            event.preventDefault();
-            const fname = document.getElementById('fname').value;
-            const lname = document.getElementById('lname').value;
-            const formData = {
-                fname: fname,
-                lname: lname,
-            }
-            if (!fname || !lname) {
-                alert("First name and last name required!");
-                return;
-            }
-            console.log(formData);
-            alert("You submitted the form!")
-        })
-    </script>
+    <script src="form.js"></script>
 </body>
 </html>
