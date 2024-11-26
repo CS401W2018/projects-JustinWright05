@@ -40,6 +40,7 @@ nav a {
 main {
     padding-left: 20px;
     padding-top: 20px;
+    padding-right: 20px;
 }
 .sidebar h3 {
     text-align: center;
@@ -52,9 +53,114 @@ main {
     margin: 5px auto;
     border-spacing: 10px;
     border-collapse: collapse;
+    background-color: white;
+    box-shadow: 5px 5px 5px black;
 }
 .tier-list td, .tier-list th {
     border: thin solid black;
     padding: 10px;
 }
+.tier-list tbody tr:nth-child(odd) {
+    background-color: lightgray;
+}
+.tier-list thead, .tier-list tfoot, .tier-list tbody tr th {
+    background-color: gray;
+}
+.table {
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+.center {
+    text-align: center;
+}
 
+
+
+
+
+.main-header {
+    text-align: center;
+}
+.sidebar-goblin {
+    display: flex;
+    flex-flow: column;
+    float: right;
+    justify-content: right;
+    width: 378px;
+    background-color: rgba(255, 170, 0, 0.399);
+    padding: 20px;
+    border: thick solid black;
+    box-shadow: 5px 5px 5px gray;
+}
+.sidebar-goblin h3 {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.item   {
+    width: 600px;
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    border: thin solid black;
+    box-shadow: 5px 5px 5px;
+}
+.lyrics {
+    line-height: 1.5;
+}
+
+
+
+
+.sidebar-wolf {
+    display: flex;
+    flex-flow: column;
+    float: right;
+    justify-content: right;
+    width: 378px;
+    background-color: rgba(255, 170, 0, 0.399);
+    padding: 20px;
+    border: thick solid black;
+    box-shadow: 5px 5px 5px gray;
+}
+.sidebar-wolf h3 {
+    text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1028px) {
+    nav {
+        flex-direction: column;
+        gap: 30px;
+        width: max-content;
+        text-align: center;
+        margin: 5px auto;
+        border-radius: 5px;
+    }
+    nav a {
+        border-radius: 5px;
+    }
+    main {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+    }
+    .sidebar-wolf {
+        float: none;
+        margin: auto;
+    }
+    .sidebar-goblin {
+        float: none;
+        margin: auto;
+    }
+}
