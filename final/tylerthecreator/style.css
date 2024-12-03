@@ -400,6 +400,65 @@ legend {
 .fboy-header {
     text-shadow: -1px -1px 0 gold, 1px -1px 0 gold, -1px 1px 0 gold, 1px 1px 0 gold;
 }
+
+
+
+
+
+.sidebar-igor {
+    display: flex;
+    flex-flow: column;
+    float: right;
+    justify-content: right;
+    width: 378px;
+    background-color: black;
+    padding: 20px;
+    border: thick solid white;
+    box-shadow: 5px 5px 5px gray;
+}
+.sidebar-igor h3 {
+    text-align: center;
+}
+.igor-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.igor-item   {
+    width: 600px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border: thin solid white;
+    box-shadow: 5px 5px 5px;
+}
+#igor {
+    background-color: lightpink;
+}
+.bgray {
+    background-color: gray;
+}
+.igor-non-current {
+    background-color: gray;
+    color: black;
+}
+.igor-current {
+    background-color: darkgray;
+}
+.igor-non-current:hover {
+    background-color: black;
+}
+.fwhite {
+    color: white;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 1028px) {
     nav {
         flex-direction: column;
