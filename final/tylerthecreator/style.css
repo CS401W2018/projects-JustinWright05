@@ -85,7 +85,7 @@ main {
 }
 fieldset {
     box-shadow: 3px 3px 3px;
-    background-color: beige;
+    background-color: gold;
     width: 500px;
     margin: auto;
 }
@@ -177,6 +177,12 @@ legend {
 
     src: url(fonts/Tylerwolf.otf);
 }
+@font-face {
+
+    font-family: "cherry-bomb";
+
+    src: url(fonts/CherryBomb-Regular.ttf);
+}
 .goblin-font {
     font-family: Goblin;
     color: deeppink;
@@ -194,7 +200,7 @@ legend {
     background-color: black;
     padding: 20px;
     border: thick solid white;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px black;
 }
 .sidebar-goblin h3 {
     text-align: center;
@@ -265,7 +271,7 @@ legend {
     background-color: burlywood;
     padding: 20px;
     border: thick solid black;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px black;
 }
 .sidebar-wolf h3 {
     text-align: center;
@@ -295,13 +301,52 @@ legend {
     float: right;
     justify-content: right;
     width: 378px;
-    background-color: rgba(255, 170, 0, 0.399);
+    background-color: hotpink;
     padding: 20px;
-    border: thick solid black;
+    border: thick solid gold;
     box-shadow: 5px 5px 5px gray;
 }
 .sidebar-cherrybomb h3 {
     text-align: center;
+}
+.cbomb-non-current {
+    background-color: turquoise;
+    color: black;
+}
+.cbomb-current {
+    background-color: cyan;
+}
+.cbomb-non-current:hover {
+    background-color: blue;
+}
+#cbomb {
+    background-color: azure;
+}
+.baqua {
+    background-color: turquoise;
+}
+.cbomb-font {
+    font-family: cherry-bomb;
+    color: darkred;
+    text-shadow: -1px -1px 0 gold, 1px -1px 0 gold, -1px 1px 0 gold, 1px 1px 0 gold;
+}
+.cbomb-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.cbomb-item   {
+    width: 600px;
+    background-color: hotpink;
+    text-align: center;
+    padding: 10px;
+    border: thin solid gold;
+    box-shadow: 5px 5px 5px;
+}
+.cbomb-header {
+    color: darkred;
+    text-shadow: -1px -1px 0 gold, 1px -1px 0 gold, -1px 1px 0 gold, 1px 1px 0 gold;
 }
 
 
@@ -314,13 +359,46 @@ legend {
     float: right;
     justify-content: right;
     width: 378px;
-    background-color: rgba(255, 170, 0, 0.399);
+    background-color: gold;
     padding: 20px;
     border: thick solid black;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px black;
 }
 .sidebar-flowerboy h3 {
     text-align: center;
+}
+#flowerboy {
+    background-color: darkorange;
+}
+.fboy-non-current {
+    background-color: orangered;
+    color: black;
+}
+.borange {
+    background-color: orangered;
+}
+.fboy-current {
+    background-color: darkred;
+}
+.fboy-non-current:hover {
+    background-color: firebrick;
+}
+.fboy-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.fboy-item   {
+    width: 600px;
+    background-color: gold;
+    text-align: center;
+    padding: 10px;
+    border: thin solid black;
+    box-shadow: 5px 5px 5px;
+}
+.fboy-header {
+    text-shadow: -1px -1px 0 gold, 1px -1px 0 gold, -1px 1px 0 gold, 1px 1px 0 gold;
 }
 @media screen and (max-width: 1028px) {
     nav {
