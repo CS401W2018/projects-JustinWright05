@@ -2,6 +2,12 @@ body {
     background-color: lightblue;
     margin-left: 0;
     margin-right: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+header {
+    font-family: tyler;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 header h1 {
     text-align: center;
@@ -14,9 +20,11 @@ nav {
 }
 nav a {
     text-decoration: none;
+    font-family: tyler;
     background-color: darkblue;
-    color: darkgoldenrod;
+    color: black;
     padding: 25px;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 
 }
 .non-current:hover {
@@ -125,10 +133,55 @@ legend {
     width: 150px;
     text-align: right;
 }
+.xxlarge {
+    font-size: 30pt;
+}
 
 
 
 
+.bpink {
+    background-color: deeppink;
+}
+.goblin-non-current {
+    background-color: deeppink;
+    color: black;
+}
+.goblin-non-current:hover {
+    background-color: black;
+    color: black;
+}
+.goblin-current {
+    background-color: fuchsia;
+    color: black;
+}
+#goblin {
+    background-color: gray;
+}
+
+@font-face {
+
+    font-family: "Goblin";
+
+    src: url(fonts/COOPBL.TTF);
+}
+@font-face {
+
+    font-family: "tyler";
+
+    src: url(fonts/arial_black.ttf);
+}
+@font-face {
+
+    font-family: "wolf";
+
+    src: url(fonts/Tylerwolf.otf);
+}
+.goblin-font {
+    font-family: Goblin;
+    color: deeppink;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 .main-header {
     text-align: center;
 }
@@ -138,13 +191,27 @@ legend {
     float: right;
     justify-content: right;
     width: 378px;
-    background-color: rgba(255, 170, 0, 0.399);
+    background-color: black;
     padding: 20px;
-    border: thick solid black;
+    border: thick solid white;
     box-shadow: 5px 5px 5px gray;
 }
 .sidebar-goblin h3 {
     text-align: center;
+}
+.goblin-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.goblin-item   {
+    width: 600px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border: thin solid white;
+    box-shadow: 5px 5px 5px;
 }
 .container {
     display: flex;
@@ -163,23 +230,59 @@ legend {
 .lyrics {
     line-height: 1.5;
 }
+.fwhite {
+    color: white;
+}
 
 
 
 
+.wolf-font {
+    font-family: wolf;
+}
+.bgreen {
+    background-color: darkgreen;
+}
+#wolf {
+    background-color: deepskyblue;
+}
+.wolf-non-current {
+    background-color: darkgreen;
+    color: black;
+}
+.wolf-current {
+    background-color: lightgreen;
+}
+.wolf-non-current:hover {
+    background-color: black;
+}
 .sidebar-wolf {
     display: flex;
     flex-flow: column;
     float: right;
     justify-content: right;
     width: 378px;
-    background-color: rgba(255, 170, 0, 0.399);
+    background-color: burlywood;
     padding: 20px;
     border: thick solid black;
     box-shadow: 5px 5px 5px gray;
 }
 .sidebar-wolf h3 {
     text-align: center;
+}
+.wolf-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.wolf-item   {
+    width: 600px;
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+    border: thin solid black;
+    box-shadow: 5px 5px 5px;
 }
 
 
