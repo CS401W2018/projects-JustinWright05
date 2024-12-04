@@ -189,6 +189,17 @@ legend {
 
     src: url(fonts/Futura\ Bold.otf);
 }
+@font-face {
+
+    font-family: "chromakopia";
+
+    src: url(fonts/fonnts.com-Poleno_Black.otf);
+    src: url(fonts/fonnts.com-Poleno_Bold.otf);
+    src: url(fonts/fonnts.com-Poleno_ExtraBold.otf);
+    src: url(fonts/fonnts.com-Poleno_Medium.otf);
+    src: url(fonts/fonnts.com-Poleno_SemiBold.otf);
+    src: url(fonts/fonnts.com-Poleno_Super.otf);
+}
 .goblin-font {
     font-family: Goblin;
     color: deeppink;
@@ -515,6 +526,61 @@ legend {
     color: rgb(86, 43, 12);
 }
 
+
+
+
+
+#chromakopia {
+    background-color: darkgreen;
+}
+.black {
+    background-color: black;
+}
+.chromakopia-non-current {
+    background-color: black;
+    color: black;
+}
+.chromakopia-current {
+    background-color: gray;
+}
+.chromakopia-non-current:hover {
+    background-color: green;
+}
+.sidebar-chromakopia {
+    display: flex;
+    flex-flow: column;
+    float: right;
+    justify-content: right;
+    width: 378px;
+    background-color: green;
+    padding: 20px;
+    border: thick solid black;
+    box-shadow: 5px 5px 5px black;
+}
+.sidebar-chromakopia h3 {
+    text-align: center;
+}
+.chromakopia-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.chromakopia-item   {
+    width: 600px;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    border: thin solid black;
+    box-shadow: 5px 5px 5px;
+}
+.chromakopia-font {
+    font-family: chromakopia;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    color: black;
+    text-decoration: none;
+}
 
 
 
