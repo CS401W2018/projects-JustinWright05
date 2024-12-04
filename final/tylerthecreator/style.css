@@ -183,6 +183,12 @@ legend {
 
     src: url(fonts/CherryBomb-Regular.ttf);
 }
+@font-face {
+
+    font-family: "cmiygl";
+
+    src: url(fonts/Futura\ Bold.otf);
+}
 .goblin-font {
     font-family: Goblin;
     color: deeppink;
@@ -457,6 +463,60 @@ legend {
 
 
 
+.sidebar-cmiygl {
+    display: flex;
+    flex-flow: column;
+    float: right;
+    justify-content: right;
+    width: 378px;
+    background-color: lightpink;
+    padding: 20px;
+    border: thick solid white;
+    box-shadow: 5px 5px 5px gray;
+}
+.sidebar-cmiygl h3 {
+    text-align: center;
+}
+.cmiygl-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.cmiygl-item   {
+    width: 600px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    border: thin solid white;
+    box-shadow: 5px 5px 5px;
+}
+#cmiygl {
+    background-color: bisque;
+}
+.bsalmon {
+    background-color: lightsalmon;
+}
+.cmiygl-non-current {
+    background-color: lightsalmon;
+    color: black;
+}
+.cmiygl-current {
+    background-color: lightblue;
+}
+.cmiygl-non-current:hover {
+    background-color: lightgreen;
+}
+.cmiygl-font {
+    font-family: cmiygl;
+    color: rgb(86, 43, 12);
+}
+.fbrown {
+    color: rgb(86, 43, 12);
+}
+
+
+
 
 
 @media screen and (max-width: 1028px) {
@@ -489,6 +549,14 @@ legend {
         margin: auto;
     }
     .sidebar-flowerboy {
+        float: none;
+        margin: auto;
+    }
+    .sidebar-igor {
+        float: none;
+        margin: auto;
+    }
+    .sidebar-cmiygl {
         float: none;
         margin: auto;
     }
