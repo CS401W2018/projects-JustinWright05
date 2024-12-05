@@ -651,4 +651,7 @@ legend {
     fieldset {
         width: 300px;
     }
+    .form-row label {
+        width: 170px;
+    }
 }
