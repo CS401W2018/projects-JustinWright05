@@ -136,6 +136,9 @@ legend {
 .xxlarge {
     font-size: 30pt;
 }
+.center {
+    text-align: center;
+}
 
 
 
@@ -602,28 +605,50 @@ legend {
         flex-flow: column;
         justify-content: space-around;
     }
+    .sidebar {
+        float: none;
+        margin: auto;
+        width: 300px;
+    }
     .sidebar-wolf {
+        width: 300px;
         float: none;
         margin: auto;
     }
     .sidebar-goblin {
+        width: 300px;
         float: none;
         margin: auto;
     }
     .sidebar-cherrybomb {
+        width: 300px;
         float: none;
         margin: auto;
     }
     .sidebar-flowerboy {
+        width: 300px;
         float: none;
         margin: auto;
     }
     .sidebar-igor {
+        width: 300px;
         float: none;
         margin: auto;
     }
     .sidebar-cmiygl {
+        width: 300px;
         float: none;
         margin: auto;
+    }
+    .sidebar-chromakopia {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    iframe {
+        width: 350px;
+    }
+    fieldset {
+        width: 300px;
     }
 }

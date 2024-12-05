@@ -2,21 +2,29 @@ body {
     background-color: lightblue;
     margin-left: 0;
     margin-right: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+header {
+    font-family: tyler;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 header h1 {
     text-align: center;
 }
 nav {
-    display: none
+    display: none;
 }
 footer {
     display: none;
 }
 nav a {
     text-decoration: none;
+    font-family: tyler;
     background-color: darkblue;
-    color: darkgoldenrod;
+    color: black;
     padding: 25px;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 
 }
 .non-current:hover {
@@ -29,7 +37,7 @@ nav a {
 .sidebar {
     display: flex;
     flex-flow: column;
-    float: left;
+    float: none;
     justify-content: right;
     width: 378px;
     background-color: rgba(255, 170, 0, 0.399);
@@ -41,11 +49,6 @@ main {
     padding-left: 20px;
     padding-top: 20px;
     padding-right: 20px;
-}
-.print {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
 }
 .sidebar h3 {
     text-align: center;
@@ -80,27 +83,161 @@ main {
 .center {
     text-align: center;
 }
+fieldset {
+    box-shadow: 3px 3px 3px;
+    background-color: gold;
+    width: 500px;
+    margin: auto;
+}
+legend {
+    border: thin solid black;
+    background-color: black;
+    padding: 10px;
+    color: white;
+}
+.form-row {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+.form-row input {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #DDD;
+}
+.form-row input:focus {
+    background-color: #FFF;
+}
+.form-row textarea {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #DDD;
+}
+.form-row textarea:focus {
+    background-color: #FFF;
+}
+.form-row select {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #DDD;
+}
+.form-row select:focus {
+    background-color: #FFF;
+}
+.spacer {
+    width: 150px;
+    text-align: right;
+}
+.xxlarge {
+    font-size: 30pt;
+}
+.center {
+    text-align: center;
+}
 
 
 
 
+.bpink {
+    background-color: deeppink;
+}
+.goblin-non-current {
+    background-color: deeppink;
+    color: black;
+}
+.goblin-non-current:hover {
+    background-color: black;
+    color: black;
+}
+.goblin-current {
+    background-color: fuchsia;
+    color: black;
+}
+#goblin {
+    background-color: gray;
+}
 
+@font-face {
+
+    font-family: "Goblin";
+
+    src: url(fonts/COOPBL.TTF);
+}
+@font-face {
+
+    font-family: "tyler";
+
+    src: url(fonts/arial_black.ttf);
+}
+@font-face {
+
+    font-family: "wolf";
+
+    src: url(fonts/Tylerwolf.otf);
+}
+@font-face {
+
+    font-family: "cherry-bomb";
+
+    src: url(fonts/CherryBomb-Regular.ttf);
+}
+@font-face {
+
+    font-family: "cmiygl";
+
+    src: url(fonts/Futura\ Bold.otf);
+}
+@font-face {
+
+    font-family: "chromakopia";
+
+    src: url(fonts/fonnts.com-Poleno_Black.otf);
+    src: url(fonts/fonnts.com-Poleno_Bold.otf);
+    src: url(fonts/fonnts.com-Poleno_ExtraBold.otf);
+    src: url(fonts/fonnts.com-Poleno_Medium.otf);
+    src: url(fonts/fonnts.com-Poleno_SemiBold.otf);
+    src: url(fonts/fonnts.com-Poleno_Super.otf);
+}
+.goblin-font {
+    font-family: Goblin;
+    color: deeppink;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 .main-header {
     text-align: center;
 }
 .sidebar-goblin {
     display: flex;
     flex-flow: column;
-    float: right;
+    float: none;
     justify-content: right;
     width: 378px;
-    background-color: rgba(255, 170, 0, 0.399);
+    background-color: black;
     padding: 20px;
-    border: thick solid black;
-    box-shadow: 5px 5px 5px gray;
+    border: thick solid white;
+    box-shadow: 5px 5px 5px black;
 }
 .sidebar-goblin h3 {
     text-align: center;
+}
+.goblin-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.goblin-item   {
+    width: 600px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border: thin solid white;
+    box-shadow: 5px 5px 5px;
 }
 .container {
     display: flex;
@@ -119,26 +256,334 @@ main {
 .lyrics {
     line-height: 1.5;
 }
+.fwhite {
+    color: white;
+}
 
 
 
 
+.wolf-font {
+    font-family: wolf;
+}
+.bgreen {
+    background-color: darkgreen;
+}
+#wolf {
+    background-color: deepskyblue;
+}
+.wolf-non-current {
+    background-color: darkgreen;
+    color: black;
+}
+.wolf-current {
+    background-color: lightgreen;
+}
+.wolf-non-current:hover {
+    background-color: black;
+}
 .sidebar-wolf {
     display: flex;
     flex-flow: column;
-    float: right;
+    float: none;
     justify-content: right;
     width: 378px;
-    background-color: rgba(255, 170, 0, 0.399);
+    background-color: burlywood;
     padding: 20px;
     border: thick solid black;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px black;
 }
 .sidebar-wolf h3 {
     text-align: center;
 }
+.wolf-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.wolf-item   {
+    width: 600px;
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+    border: thin solid black;
+    box-shadow: 5px 5px 5px;
+}
 
 
+
+
+
+.sidebar-cherrybomb {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: hotpink;
+    padding: 20px;
+    border: thick solid gold;
+    box-shadow: 5px 5px 5px gray;
+}
+.sidebar-cherrybomb h3 {
+    text-align: center;
+}
+.cbomb-non-current {
+    background-color: turquoise;
+    color: black;
+}
+.cbomb-current {
+    background-color: cyan;
+}
+.cbomb-non-current:hover {
+    background-color: blue;
+}
+#cbomb {
+    background-color: azure;
+}
+.baqua {
+    background-color: turquoise;
+}
+.cbomb-font {
+    font-family: cherry-bomb;
+    color: darkred;
+    text-shadow: -1px -1px 0 gold, 1px -1px 0 gold, -1px 1px 0 gold, 1px 1px 0 gold;
+}
+.cbomb-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.cbomb-item   {
+    width: 600px;
+    background-color: hotpink;
+    text-align: center;
+    padding: 10px;
+    border: thin solid gold;
+    box-shadow: 5px 5px 5px;
+}
+.cbomb-header {
+    color: darkred;
+    text-shadow: -1px -1px 0 gold, 1px -1px 0 gold, -1px 1px 0 gold, 1px 1px 0 gold;
+}
+
+
+
+
+
+.sidebar-flowerboy {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: gold;
+    padding: 20px;
+    border: thick solid black;
+    box-shadow: 5px 5px 5px black;
+}
+.sidebar-flowerboy h3 {
+    text-align: center;
+}
+#flowerboy {
+    background-color: darkorange;
+}
+.fboy-non-current {
+    background-color: orangered;
+    color: black;
+}
+.borange {
+    background-color: orangered;
+}
+.fboy-current {
+    background-color: darkred;
+}
+.fboy-non-current:hover {
+    background-color: firebrick;
+}
+.fboy-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.fboy-item   {
+    width: 600px;
+    background-color: gold;
+    text-align: center;
+    padding: 10px;
+    border: thin solid black;
+    box-shadow: 5px 5px 5px;
+}
+.fboy-header {
+    text-shadow: -1px -1px 0 gold, 1px -1px 0 gold, -1px 1px 0 gold, 1px 1px 0 gold;
+}
+
+
+
+
+
+.sidebar-igor {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: black;
+    padding: 20px;
+    border: thick solid white;
+    box-shadow: 5px 5px 5px gray;
+}
+.sidebar-igor h3 {
+    text-align: center;
+}
+.igor-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.igor-item   {
+    width: 600px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border: thin solid white;
+    box-shadow: 5px 5px 5px;
+}
+#igor {
+    background-color: lightpink;
+}
+.bgray {
+    background-color: gray;
+}
+.igor-non-current {
+    background-color: gray;
+    color: black;
+}
+.igor-current {
+    background-color: darkgray;
+}
+.igor-non-current:hover {
+    background-color: black;
+}
+.fwhite {
+    color: white;
+}
+
+
+
+
+
+.sidebar-cmiygl {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: lightpink;
+    padding: 20px;
+    border: thick solid white;
+    box-shadow: 5px 5px 5px gray;
+}
+.sidebar-cmiygl h3 {
+    text-align: center;
+}
+.cmiygl-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.cmiygl-item   {
+    width: 600px;
+    background-color: lightblue;
+    text-align: center;
+    padding: 10px;
+    border: thin solid white;
+    box-shadow: 5px 5px 5px;
+}
+#cmiygl {
+    background-color: bisque;
+}
+.bsalmon {
+    background-color: lightsalmon;
+}
+.cmiygl-non-current {
+    background-color: lightsalmon;
+    color: black;
+}
+.cmiygl-current {
+    background-color: lightblue;
+}
+.cmiygl-non-current:hover {
+    background-color: lightgreen;
+}
+.cmiygl-font {
+    font-family: cmiygl;
+    color: rgb(86, 43, 12);
+}
+.fbrown {
+    color: rgb(86, 43, 12);
+}
+
+
+
+
+
+#chromakopia {
+    background-color: darkgreen;
+}
+.black {
+    background-color: black;
+}
+.chromakopia-non-current {
+    background-color: black;
+    color: black;
+}
+.chromakopia-current {
+    background-color: gray;
+}
+.chromakopia-non-current:hover {
+    background-color: green;
+}
+.sidebar-chromakopia {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: green;
+    padding: 20px;
+    border: thick solid black;
+    box-shadow: 5px 5px 5px black;
+}
+.sidebar-chromakopia h3 {
+    text-align: center;
+}
+.chromakopia-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 50px;
+}
+.chromakopia-item   {
+    width: 600px;
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    border: thin solid black;
+    box-shadow: 5px 5px 5px;
+}
+.chromakopia-font {
+    font-family: chromakopia;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+    color: black;
+    text-decoration: none;
+}
 
 
 
@@ -157,8 +602,53 @@ main {
     }
     main {
         display: flex;
-        gap: 10px;
-        flex-flow: row wrap;
+        flex-flow: column;
         justify-content: space-around;
+    }
+    .sidebar {
+        float: none;
+        margin: auto;
+        width: 300px;
+    }
+    .sidebar-wolf {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    .sidebar-goblin {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    .sidebar-cherrybomb {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    .sidebar-flowerboy {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    .sidebar-igor {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    .sidebar-cmiygl {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    .sidebar-chromakopia {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    iframe {
+        width: 350px;
+    }
+    fieldset {
+        width: 300px;
     }
 }
