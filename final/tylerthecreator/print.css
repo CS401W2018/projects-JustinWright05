@@ -1,8 +1,17 @@
+nav {
+    display: none;
+}
+nav a {
+    display: none;
+}
+footer {
+    display: none;
+}
 body {
     background-color: lightblue;
     margin-left: 0;
     margin-right: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
 }
 header {
@@ -13,10 +22,10 @@ header h1 {
     text-align: center;
 }
 nav {
-    display: none;
-}
-footer {
-    display: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    background-color: darkblue;
 }
 nav a {
     text-decoration: none;
@@ -55,6 +64,9 @@ main {
 }
 .ul-list {
     line-height: 1.5;
+}
+.double-spaced {
+    line-height: 2;
 }
 .tier-list {
     border: thin solid black;
@@ -139,6 +151,20 @@ legend {
 .center {
     text-align: center;
 }
+.sidebar-container {
+    display: flex;
+    float: none;
+    flex-flow: column;
+    width: 378px;
+    gap: 50px;
+    margin: 50px;
+}
+.none {
+    text-decoration: none;
+}
+.underline {
+    text-decoration: underline;
+}
 
 
 
@@ -222,6 +248,23 @@ legend {
     border: thick solid white;
     box-shadow: 5px 5px 5px black;
 }
+.sidebar-goblin-two {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: thick solid white;
+    box-shadow: 5px 5px 5px black;
+    margin: auto;
+}
+.sidebar-goblin-two a:hover {
+    color: white;
+}
 .sidebar-goblin h3 {
     text-align: center;
 }
@@ -245,6 +288,15 @@ legend {
     justify-content: space-around;
     gap: 50px;
 }
+.frame-item {
+    width: 300px;
+    background-color: beige;
+    text-align: center;
+    padding: 10px;
+    border: thin solid black;
+    box-shadow: 5px 5px 5px;
+    margin: 50px auto;
+}
 .item   {
     width: 600px;
     background-color: beige;
@@ -265,6 +317,7 @@ legend {
 
 .wolf-font {
     font-family: wolf;
+    color: black;
 }
 .bgreen {
     background-color: darkgreen;
@@ -292,6 +345,23 @@ legend {
     padding: 20px;
     border: thick solid black;
     box-shadow: 5px 5px 5px black;
+}
+.sidebar-wolf-two {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: burlywood;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: thick solid black;
+    box-shadow: 5px 5px 5px black;
+    margin: auto;
+}
+.sidebar-wolf-two a:hover {
+    color: white;
 }
 .sidebar-wolf h3 {
     text-align: center;
@@ -325,6 +395,23 @@ legend {
     padding: 20px;
     border: thick solid gold;
     box-shadow: 5px 5px 5px gray;
+}
+.sidebar-cherrybomb-two {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: hotpink;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: thick solid gold;
+    box-shadow: 5px 5px 5px gray;
+    margin: auto;
+}
+.sidebar-cherrybomb-two a:hover {
+    color: white;
 }
 .sidebar-cherrybomb h3 {
     text-align: center;
@@ -384,6 +471,25 @@ legend {
     border: thick solid black;
     box-shadow: 5px 5px 5px black;
 }
+.sidebar-flowerboy-two {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: gold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: thick solid black;
+    box-shadow: 5px 5px 5px black;
+}
+.sidebar-flowerboy-two a:hover {
+    color: white;
+}
+.fboy-font {
+    color: black;
+}
 .sidebar-flowerboy h3 {
     text-align: center;
 }
@@ -436,6 +542,22 @@ legend {
     border: thick solid white;
     box-shadow: 5px 5px 5px gray;
 }
+.sidebar-igor-two {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: thick solid white;
+    box-shadow: 5px 5px 5px gray;
+}
+.sidebar-igor-two a:hover {
+    color: lightpink;
+}
 .sidebar-igor h3 {
     text-align: center;
 }
@@ -487,6 +609,22 @@ legend {
     padding: 20px;
     border: thick solid white;
     box-shadow: 5px 5px 5px gray;
+}
+.sidebar-cmiygl-two {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: rgb(241, 218, 86);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: thick solid white;
+    box-shadow: 5px 5px 5px gray;
+}
+.sidebar-cmiygl-two a:hover {
+    color: white;
 }
 .sidebar-cmiygl h3 {
     text-align: center;
@@ -560,6 +698,22 @@ legend {
     border: thick solid black;
     box-shadow: 5px 5px 5px black;
 }
+.sidebar-chromakopia-two {
+    display: flex;
+    flex-flow: column;
+    float: none;
+    justify-content: right;
+    width: 378px;
+    background-color: green;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: thick solid black;
+    box-shadow: 5px 5px 5px black;
+}
+.sidebar-chromakopia-two a:hover {
+    color: white;
+}
 .sidebar-chromakopia h3 {
     text-align: center;
 }
@@ -582,7 +736,6 @@ legend {
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: white;
     color: black;
-    text-decoration: none;
 }
 
 
@@ -615,7 +768,21 @@ legend {
         float: none;
         margin: auto;
     }
+    .sidebar-wolf-two {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    .sidebar-container {
+        float: none;
+        margin: auto;
+    }
     .sidebar-goblin {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    .sidebar-goblin-two {
         width: 300px;
         float: none;
         margin: auto;
@@ -625,7 +792,17 @@ legend {
         float: none;
         margin: auto;
     }
+    .sidebar-cherrybomb-two {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
     .sidebar-flowerboy {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    .sidebar-flowerboy-two {
         width: 300px;
         float: none;
         margin: auto;
@@ -635,7 +812,17 @@ legend {
         float: none;
         margin: auto;
     }
+    .sidebar-igor-two {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
     .sidebar-cmiygl {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
+    .sidebar-cmiygl-two {
         width: 300px;
         float: none;
         margin: auto;
@@ -645,10 +832,18 @@ legend {
         float: none;
         margin: auto;
     }
+    .sidebar-chromakopia-two {
+        width: 300px;
+        float: none;
+        margin: auto;
+    }
     iframe {
         width: 350px;
     }
     fieldset {
         width: 300px;
+    }
+    .form-row label {
+        width: 210px;
     }
 }
